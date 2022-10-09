@@ -1,6 +1,6 @@
 .TH TABBED 1 tabbed\-VERSION
 .SH NAME
-tabbed \- generic tabbed interface
+tabbed \- generic tabbed interface (lbrayner)
 .SH SYNOPSIS
 .B tabbed
 .RB [ \-c ]
@@ -128,23 +128,23 @@ move selected tab one to the right
 .B Ctrl\-Shift\-u
 toggle autofocus of urgent tabs
 .TP
-.B Ctrl\-Tab
+.B Ctrl\-Shift\-Tab
 toggle between the selected and last selected tab
 .TP
-.B Ctrl\-`
+.B Ctrl\-Shift\-`
 open dmenu to either create a new tab appending the entered string or select
 an already existing tab.
 .TP
-.B Ctrl\-q
+.B Ctrl\-Shift\-q
 close tab
 .TP
-.B Ctrl\-u
+.B Ctrl\-Shift\-u
 focus next urgent tab
 .TP
-.B Ctrl\-[0..9]
+.B Ctrl\-Shift\-[0..9]
 jumps to nth tab
 .TP
-.B F11
+.B Ctrl\-Shift\-F11
 Toggle fullscreen mode.
 .SH EXAMPLES
 $ tabbed surf -e
